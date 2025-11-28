@@ -49,6 +49,21 @@ body{
     font-style: normal;
 }
 
+.icon-and-title{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.custom-button {
+    display: inline-block;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
 #aboutme{
     border-radius: 9px;
     padding: 25px;
