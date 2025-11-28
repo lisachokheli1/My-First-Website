@@ -1,0 +1,221 @@
+body{
+    background-color: #1B3C53;
+}
+
+.first-color{
+    background-color: #1B3C53;
+}
+
+.second-color{
+    background-color: #234c6a;
+}
+
+.third-color{
+    background-color: #456882;
+}
+
+.neutral-color{
+    background-color: #D2C1B6;
+}
+
+.text-color{
+    color: #D2C1B6;
+}
+
+.text-color-two{
+    color:#1B3C53
+}
+
+.text-color-three{
+    color:  #234c6a;
+}
+
+.picture{
+    border-radius: 50%;
+    border: 1px solid #D2C1B6 ;
+}
+
+.montserrat{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.playfair{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+#aboutme{
+    border-radius: 9px;
+    padding: 25px;
+}
+
+#icon-grid{
+    border-radius: 9px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1.5fr 3fr 2fr 2fr;
+    gap: 30px;
+    padding: 30px;
+    height: 100vh;
+}
+
+.resume{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+}
+
+.box{
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+.summary{
+    background-color: #456882;
+    grid-column: span 3;
+    border-radius: 10px;
+}
+
+.education{
+    background-color: #234c6a;
+    grid-column: span 2;
+    border-radius: 10px;
+}
+
+.experience{
+    background-color:#456882;
+    border-radius: 10px;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.skills{
+    background-color: #D2C1B6;
+    color: #1B3C53 !important;
+    border-radius: 9px;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.awards{
+    background-color:#234c6a;
+    border-radius: 9px;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.hobby{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-color: #456882;
+    border-radius: 9px;
+    padding: 5%;
+    padding-top: 10%;
+    text-align: center;
+}
+
+.foot{
+    grid-column-start: 1;
+    grid-row-start: 6;
+}
+
+.grid-item{
+    height: 500px;
+    overflow: hidden;
+    border-radius: 9px;
+    place-items: center;
+}
+
+.title{
+    grid-area: 1 / 1 / 3 / -1;
+    text-align: center;
+    color: #D2C1B6;
+    padding-bottom: 10%;
+}
+
+.draw{
+    grid-area: 3 / 1 / 4 / 2;
+    background-color: #456882;
+    color: #D2C1B6;
+    font-weight: 500;
+}
+
+.video-photo{
+    grid-area: 3 / 3 / 5 / 4;
+    background-color: #D2C1B6;
+    color: #1B3C53;
+    font-weight: 500;
+}
+
+.crochet{
+    grid-area: 4 / 1 / 5 / 3;
+    background-color:#234c6a;
+    color:#D2C1B6;
+    font-weight: 500;
+}
+
+.reading{
+    grid-area: 5 / 3 / 7 / -1;
+    background-color: #234c6a;
+    color:#D2C1B6;
+    font-weight: 500;
+}
+
+.pottery{
+    grid-area: 6 / 1 / 7 / 3;
+    background-color: #D2C1B6;
+    color: #1B3C53;
+    font-weight: 500;
+}
+
+.img{
+    height: 500px;
+    display: grid;
+    border-radius: 9px;
+}
+
+.img-draw{
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.img-edit{
+    grid-area: 4 / 3 / 5 / 4;
+}
+
+.img-crochet{
+    grid-area: 5 / 1 / 6 / 2;
+    border-top-left-radius: 0px;
+}
+
+.img-read{
+    grid-area: 5 / 2 / 6 / 3;
+}
+
+.img-pottery{
+    grid-area: 6 / 3 / 7 / 4;
+}
+
+.grid-item p{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+
+
+
